@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+
+<div class="page-header"><h3><b>Profil użytkownika </b></h3></div>
+<div><h4>
+    <p> <b> Imię: </b>  {% if user[1]!= None %} {{ user[1] }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Nazwisko: </b>  {% if user[2]!= None %} {{ user[2] }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> E-mail: </b>  {% if user[3]!= None %} {{ user[3] }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Ulica: </b>  {% if user[6]!= None %} {{ user[6] }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Numer domu/mieszkania: </b>  {% if user[7]!= None %} {{ user[7] }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Miasto: </b>  {% if user[8]!= None %} {{ user[8] }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Kod pocztowy: </b>  {% if user[9]!= None %} {{ user[9] }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Rola: </b>  {% if user[11]!= None %} {{ user[11] }} {% else %} Brak danych {% endif %} </p>
+    
+</h4></div>
+{% endblock %}

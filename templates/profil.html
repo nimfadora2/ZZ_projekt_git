@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+
+<div class="page-header"><h3><b> Your profile </b></h3></div>
+<div><h4>
+    <p> <b> Twoje imię: </b>  {% if current_user.name!= None %} {{ current_user.name }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Twoje nazwisko: </b>  {% if current_user.surname!= None %} {{ current_user.surname }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Twój e-mail: </b>  {% if current_user.email!= None %} {{ current_user.email }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Ulica: </b>  {% if current_user.street!= None %} {{ current_user.street }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Numer domu/mieszkania: </b>  {% if current_user.number!= None %} {{ current_user.number }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Miasto: </b>  {% if current_user.city!= None %} {{ current_user.city }} {% else %} Brak danych {% endif %} </p>
+    <p> <b> Kod pocztowy: </b>  {% if current_user.postcode!= None %} {{ current_user.postcode }} {% else %} Brak danych {% endif %} </p>
+
+    <div>
+        <br>
+    {{ wtf.quick_form(form) }}
+    </div>
+</h4></div>
+{% endblock %}

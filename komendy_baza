@@ -1,0 +1,315 @@
+use projekt
+
+-- Table clearing
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='oferty')
+begin
+	DROP TABLE oferty;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='users')
+begin
+	DROP TABLE users;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='roles')
+begin
+	DROP TABLE roles;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='wyzyw')
+begin
+	DROP TABLE wyzyw;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='atrakcje_hotele')
+begin
+	DROP TABLE atrakcje_hotele;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='atrakcje')
+begin
+	DROP TABLE atrakcje;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='hotele')
+begin
+	DROP TABLE hotele;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='lotniska')
+begin
+	DROP TABLE lotniska;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='miasta')
+begin
+	DROP TABLE miasta;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='panstwa')
+begin
+	DROP TABLE panstwa;
+end
+
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES where TABLE_NAME='rezerwacje')
+begin
+	DROP TABLE rezerwacje;
+end
+
+
+-- Table creating
+
+CREATE TABLE roles
+(
+    id      INT NOT NULL IDENTITY(1,1),
+    name    varchar(50) NOT NULL,
+    permissions INT,
+    PRIMARY KEY (id)
+)
+
+INSERT INTO roles values('Administrator',1)
+INSERT INTO roles values('Normal',0)
+
+CREATE TABLE users
+(
+    id int not null identity(1,1),
+    name    varchar(50),
+    surname varchar(50),
+    email varchar(50) NOT NULL unique,
+    password varchar(50),
+    role_id int not null,
+    street varchar(50),
+    number varchar(50),
+    city varchar(50),
+    postcode varchar(50)
+    PRIMARY KEY (id),
+    FOREIGN KEY (role_id) REFERENCES roles(id)
+)
+
+INSERT INTO users values('Kinga','Slowik','slowik.kinga@wp.pl','password','1',NULL,NULL,NULL,NULL)
+INSERT INTO users values('Mat','Milcz','mat@wp.pl','12345','2','Biala','32A','Balin','32-500')
+
+--SELECT * FROM users
+
+CREATE TABLE wyzyw
+(
+    id int not null identity(1,1),
+    name    varchar(50),
+	PRIMARY KEY (id)
+)
+
+INSERT INTO wyzyw values('All inclusive')
+INSERT INTO wyzyw values('Bez wyżywienia')
+INSERT INTO wyzyw values('Tylko śniadania')
+INSERT INTO wyzyw values('Śniadania i obiadokolacje')
+
+CREATE TABLE atrakcje
+(
+    id int not null identity(1,1),
+    name    varchar(50),
+	PRIMARY KEY (id)
+)
+
+INSERT INTO atrakcje values('Basen otwarty')
+INSERT INTO atrakcje values('Basen kryty')
+INSERT INTO atrakcje values('Prywatna plaża')
+INSERT INTO atrakcje values('Korty tenisowe')
+INSERT INTO atrakcje values('Lunch bar')
+INSERT INTO atrakcje values('Sala kinowa')
+INSERT INTO atrakcje values('Zjeżdzalnie wodne')
+INSERT INTO atrakcje values('Plac zabaw')
+
+CREATE TABLE panstwa
+(
+    id int not null identity(1,1),
+    name    varchar(50),
+	PRIMARY KEY (id)
+)
+
+INSERT INTO panstwa values('Maroko')
+INSERT INTO panstwa values('Francja')
+INSERT INTO panstwa values('Hiszpania')
+INSERT INTO panstwa values('Chorwacja')
+INSERT INTO panstwa values('Włochy')
+INSERT INTO panstwa values('Polska')
+
+CREATE TABLE miasta
+(
+    id int not null identity(1,1),
+    name    varchar(50),
+	id_panstwa int not null,
+	PRIMARY KEY (id),
+    FOREIGN KEY (id_panstwa) REFERENCES panstwa(id)
+)
+
+INSERT INTO miasta values('Casablanca',1)
+INSERT INTO miasta values('Fez',1)
+INSERT INTO miasta values('Tanger',1)
+INSERT INTO miasta values('Rabat',1)
+
+INSERT INTO miasta values('Paryż',2)
+INSERT INTO miasta values('Marsylia',2)
+INSERT INTO miasta values('Nicea',2)
+INSERT INTO miasta values('Nantes',2)
+INSERT INTO miasta values('Rennes',2)
+
+INSERT INTO miasta values('Madryt',3)
+INSERT INTO miasta values('Barcelona',3)
+INSERT INTO miasta values('Santa Susanna',3)
+
+INSERT INTO miasta values('Zagrzeb',4)
+INSERT INTO miasta values('Split',4)
+INSERT INTO miasta values('Rijeka',4)
+INSERT INTO miasta values('Dubrownik',4)
+
+INSERT INTO miasta values('Rzym',5)
+INSERT INTO miasta values('Wenecja',5)
+INSERT INTO miasta values('Mediolan',5)
+INSERT INTO miasta values('Neapol',5)
+
+INSERT INTO miasta values('Katowice',6)
+INSERT INTO miasta values('Kraków',6)
+INSERT INTO miasta values('Warszawa',6)
+INSERT INTO miasta values('Wrocław',6)
+
+CREATE TABLE lotniska
+(
+    id int not null identity(1,1),
+    name    varchar(50),
+	id_miasta int not null,
+	PRIMARY KEY (id),
+    FOREIGN KEY (id_miasta) REFERENCES miasta(id)
+)
+
+INSERT INTO lotniska values('Rzym-Fiumicino',(SELECT m.id FROM miasta m WHERE m.name='Rzym'))
+INSERT INTO lotniska values('Mediolan-Linate',(SELECT m.id FROM miasta m WHERE m.name='Mediolan'))
+INSERT INTO lotniska values('Wenecja',(SELECT m.id FROM miasta m WHERE m.name='Wenecja'))
+
+INSERT INTO lotniska values('Paryż Charles de Gaulle',(SELECT m.id FROM miasta m WHERE m.name='Paryż'))
+INSERT INTO lotniska values('Nicea',(SELECT m.id FROM miasta m WHERE m.name='Nicea'))
+INSERT INTO lotniska values('Paryż Beauvais',(SELECT m.id FROM miasta m WHERE m.name='Paryż'))
+
+INSERT INTO lotniska values('Barcelona',(SELECT m.id FROM miasta m WHERE m.name='Barcelona'))
+INSERT INTO lotniska values('Madryt',(SELECT m.id FROM miasta m WHERE m.name='Madryt'))
+
+INSERT INTO lotniska values('Kraków Balice',(SELECT m.id FROM miasta m WHERE m.name='Kraków'))
+INSERT INTO lotniska values('Katowice Pyrzowice',(SELECT m.id FROM miasta m WHERE m.name='Katowice'))
+INSERT INTO lotniska values('Warszawa Modlin',(SELECT m.id FROM miasta m WHERE m.name='Warszawa'))
+
+INSERT INTO lotniska values('Zagrzeb',(SELECT m.id FROM miasta m WHERE m.name='Zagrzeb'))
+INSERT INTO lotniska values('Dubrownik',(SELECT m.id FROM miasta m WHERE m.name='Dubrownik'))
+
+INSERT INTO lotniska values('Casablanca Mohamed V',(SELECT m.id FROM miasta m WHERE m.name='Casablanca'))
+
+CREATE TABLE hotele
+(
+    id int not null identity(1,1),
+    name    varchar(50),
+	id_miasta int not null,
+	PRIMARY KEY (id),
+    FOREIGN KEY (id_miasta) REFERENCES miasta(id)
+)
+
+INSERT INTO hotele values('Star Shine',(SELECT m.id FROM miasta m WHERE m.name='Dubrownik'))
+INSERT INTO hotele values('Sunny Beach',(SELECT m.id FROM miasta m WHERE m.name='Mediolan'))
+INSERT INTO hotele values('Sun&Relax',(SELECT m.id FROM miasta m WHERE m.name='Madryt'))
+INSERT INTO hotele values('Amore',(SELECT m.id FROM miasta m WHERE m.name='Paryż'))
+INSERT INTO hotele values('100 Tides',(SELECT m.id FROM miasta m WHERE m.name='Wenecja'))
+INSERT INTO hotele values('Ali baba',(SELECT m.id FROM miasta m WHERE m.name='Casablanca'))
+
+CREATE TABLE atrakcje_hotele
+(
+    id_hotelu   int not null,
+	id_atrakcji int not null,
+    FOREIGN KEY (id_hotelu) REFERENCES hotele(id),
+	FOREIGN KEY (id_atrakcji) REFERENCES atrakcje(id)
+)
+
+INSERT INTO atrakcje_hotele VALUES(1,1)
+INSERT INTO atrakcje_hotele VALUES(1,3)
+INSERT INTO atrakcje_hotele VALUES(1,6)
+
+INSERT INTO atrakcje_hotele VALUES(2,1)
+INSERT INTO atrakcje_hotele VALUES(2,4)
+INSERT INTO atrakcje_hotele VALUES(2,7)
+INSERT INTO atrakcje_hotele VALUES(2,8)
+
+INSERT INTO atrakcje_hotele VALUES(3,4)
+INSERT INTO atrakcje_hotele VALUES(3,8)
+INSERT INTO atrakcje_hotele VALUES(3,1)
+
+INSERT INTO atrakcje_hotele VALUES(4,1)
+INSERT INTO atrakcje_hotele VALUES(4,2)
+INSERT INTO atrakcje_hotele VALUES(4,3)
+INSERT INTO atrakcje_hotele VALUES(4,5)
+INSERT INTO atrakcje_hotele VALUES(4,7)
+
+INSERT INTO atrakcje_hotele VALUES(5,2)
+INSERT INTO atrakcje_hotele VALUES(5,1)
+INSERT INTO atrakcje_hotele VALUES(5,5)
+INSERT INTO atrakcje_hotele VALUES(5,8)
+
+INSERT INTO atrakcje_hotele VALUES(6,3)
+INSERT INTO atrakcje_hotele VALUES(6,1)
+INSERT INTO atrakcje_hotele VALUES(6,7)
+INSERT INTO atrakcje_hotele VALUES(6,6)
+
+CREATE TABLE oferty
+(
+	id			int not null identity(1,1),
+    id_hotelu   int not null,
+	data_od		date not null,
+	data_do		date not null,
+	id_lotn_tu	int not null,
+	id_lotn_tam	int not null,
+	id_wyzyw	int not null,
+	cena		int not null,
+	ilosc_miejsc	int not null,
+	PRIMARY KEY (id),
+    FOREIGN KEY (id_lotn_tu) REFERENCES lotniska(id),
+	FOREIGN KEY (id_lotn_tam) REFERENCES lotniska(id),
+	FOREIGN KEY (id_wyzyw) REFERENCES wyzyw(id),
+	FOREIGN KEY (id_hotelu) REFERENCES hotele(id)
+)
+
+INSERT INTO oferty VALUES(1,'2018-08-16','2018-08-24',9,13,1,2490,2)
+INSERT INTO oferty VALUES(1,'2018-08-16','2018-08-24',10,13,1,3100,3)
+INSERT INTO oferty VALUES(1,'2018-07-27','2018-08-05',9,12,1,2870,3)
+INSERT INTO oferty VALUES(1,'2018-07-16','2018-07-24',11,13,1,2690,2)
+
+
+INSERT INTO oferty VALUES(3,'2018-08-16','2018-08-24',9,8,1,3490,1)
+INSERT INTO oferty VALUES(3,'2018-08-24','2018-09-01',10,8,2,3290,2)
+INSERT INTO oferty VALUES(3,'2018-07-16','2018-07-24',10,7,1,4190,3)
+INSERT INTO oferty VALUES(3,'2018-07-09','2018-07-24',11,8,3,3990,4)
+
+INSERT INTO oferty VALUES(2,'2018-08-16','2018-08-24',9,1,1,2590,2)
+INSERT INTO oferty VALUES(2,'2018-08-09','2018-08-16',10,1,2,2190,3)
+INSERT INTO oferty VALUES(2,'2018-08-16','2018-08-24',11,1,4,3190,3)
+INSERT INTO oferty VALUES(2,'2018-07-16','2018-08-01',10,1,1,4490,1)
+
+INSERT INTO oferty VALUES(4,'2018-08-16','2018-08-24',10,5,1,5590,2)
+INSERT INTO oferty VALUES(4,'2018-08-16','2018-08-24',11,4,4,4590,2)
+INSERT INTO oferty VALUES(4,'2018-08-16','2018-08-24',10,6,3,4790,4)
+INSERT INTO oferty VALUES(4,'2018-08-16','2018-08-24',11,4,2,3590,2)
+
+INSERT INTO oferty VALUES(5,'2018-08-16','2018-08-24',11,5,3,4170,2)
+INSERT INTO oferty VALUES(5,'2018-07-16','2018-07-24',10,5,3,4500,1)
+INSERT INTO oferty VALUES(5,'2018-07-19','2018-07-27',9,5,3,3900,4)
+INSERT INTO oferty VALUES(5,'2018-08-29','2018-09-06',9,5,1,2790,3)
+
+INSERT INTO oferty VALUES(6,'2018-08-29','2018-09-06',10,14,1,2790,3)
+INSERT INTO oferty VALUES(6,'2018-07-29','2018-08-10',11,14,1,2890,4)
+INSERT INTO oferty VALUES(6,'2018-07-13','2018-07-17',11,14,1,3190,4)
+INSERT INTO oferty VALUES(6,'2018-06-29','2018-07-09',9,14,1,2999,3)
+
+SELECT * FROM hotele h, miasta m WHERE h.id_miasta=m.id
+SELECT * FROM lotniska l, miasta m WHERE l.id_miasta=m.id
+SELECT * FROM miasta
+SELECT * FROM oferty
+--SELECT * FROM atrakcje
+--SELECT * FROM miasta
+--SELECT * FROM lotniska
+
+

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+
+<div class="page-header"> <h3> <b>Edytuj/usuń ofertę</b></h3></div>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th> ID </th>
+            <th> Nazwa hotelu </th>
+            <th> Data wylotu </th>
+            <th> Data przylotu </th>
+            <th> Wyżywienie </th>
+            <th> Cena za osobę </th>
+            <th> Ilość osób </th>
+            <th> Wylot z... </th>
+            <th> Przylot do... </th>
+        </tr>
+        </thead>
+        {% for row in data %}
+        <tr>
+            {% for elem in row %}
+            <td> {{elem}} </td>
+            {% endfor %}
+            <td> <a href="{{url_for('delete_offer', id=row[0])}}" class="btn btn-danger" onclick="">Usuń</a> </td>
+          <td> <a href="{{url_for('update_offer', id=row[0])}}" class="btn btn-primary" onclick="">Edytuj</a> </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+{% endblock %}

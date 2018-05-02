@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<div class="page-header"><h2><b>Edytuj/usuń atrakcje</b></h2> </div>
+
+<table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nazwa atrakcji</th>
+        <th>Usuń</th>
+          <th>Edytuj</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for row in data %}
+      <tr>
+        <td>{{row[0]}}</td>
+        <td>{{row[1]}}</td>
+        <td> <a href="{{url_for('delete_attr', id=row[0])}}" class="btn btn-danger" onclick="">Usuń</a> </td>
+          <td> <a href="{{url_for('update_attr', id=row[0])}}" class="btn btn-primary" onclick="">Edytuj</a> </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+{% endblock %}

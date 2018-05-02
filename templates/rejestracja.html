@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+
+<div class="page-header"><h3> <b>Rejestracja </b> </h3></div>
+<div> <h4> Aby uzyskać pełen dostęp do serwisu, zarejestruj się: </h4>
+{{ wtf.quick_form(form) }}
+</div>
+<br>
+<br>
+<div> <h4> Masz już konto? Zaloguj się! </h4>
+ <a href="{{ url_for('login') }}"> Logowanie </a> </div>
+<br>
+<br>
+<br>
+
+{% endblock %}

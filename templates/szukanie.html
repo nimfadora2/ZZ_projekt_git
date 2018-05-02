@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block scripts %}
+{{ super() }}
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 1; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td");
+
+        if (td) {
+            existing = false;
+            for (j=0;j<td.length; j++) {
+                tdm = td[j];
+                if (tdm.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    existing = true;
+                }
+            }
+            if (existing==true) {
+                tr[i].style.display = "";
+            }
+            else {
+                tr[i].style.display = "none";
+            }
+    }
+    }
+  }
+</script>
+<script>
+    $(document).ready(function() {
+        $("#filtrowanie").hide();
+    });
+</script>
+<script>
+    function chowanie() {
+        $("#filtrowanie").toggle();
+    }
+</script>
+{% endblock %}
+
+
+{% block page_content %}
+
+<div class="page-header"> <h3> <b>Wyszukiwarka ofert</b></h3></div>
+<div>
+
+    <img src="static/beach_horizon.jpeg" class="img-responsive">
+    <br>
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Wyszukaj w wynikach filtrowania po słowie..." class="form-control" >
+        <div>
+            <p class="page-header"> <h3> Wyszukiwanie zaawansowane </h3><button type="button" class="btn btn-success" onclick="chowanie()">Pokaż/ukryj sekcję</button></p>
+            <div id="filtrowanie">
+                {{ wtf.quick_form(form) }}
+                </div>
+    </div>
+    <br>
+    <table class="table table-striped" id="myTable">
+        <thead>
+        <tr>
+            <th> Nazwa hotelu </th>
+            <th> Data wylotu </th>
+            <th> Data przylotu </th>
+            <th> Wyżywienie </th>
+            <th> Cena za osobę </th>
+            <th> Ilość osób </th>
+            <th> Wylot z... </th>
+            <th> Przylot do... </th>
+        </tr>
+        </thead>
+        {% for row in rows %}
+        <tr>
+            {% for data in row[1:] %}
+            <td> {{data}} </td>
+            {% endfor %}
+            <td><a href="{{ url_for('.oferta', numer_oferty=row[0] ) }}"  class="button">Szczegóły</a> </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+{% endblock %}

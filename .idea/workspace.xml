@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="14044b5b-1b01-47a8-a0dc-9c33b8728756" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Krypto$gui.coverage" NAME="gui Coverage Results" MODIFIED="1523286642163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Krypto$biuro.coverage" NAME="biuro Coverage Results" MODIFIED="1525186145384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Krypto$trial.coverage" NAME="trial Coverage Results" MODIFIED="1523290734014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="komendy_baza" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/komendy_baza">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="biuro.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/biuro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#84#0" expanded="true" />
+                <element signature="e#1052#1282#0" expanded="false" />
+                <element signature="e#1478#5151#0" expanded="false" />
+                <element signature="e#5230#6166#0" expanded="false" />
+                <element signature="e#6265#6565#0" expanded="false" />
+                <element signature="e#6660#6675#0" expanded="false" />
+                <element signature="e#6776#7664#0" expanded="false" />
+                <element signature="e#7784#7957#0" expanded="false" />
+                <element signature="e#8093#9250#0" expanded="false" />
+                <element signature="e#9329#9420#0" expanded="false" />
+                <element signature="e#9503#9542#0" expanded="false" />
+                <element signature="e#9618#10014#0" expanded="false" />
+                <element signature="e#10091#10428#0" expanded="false" />
+                <element signature="e#10484#10897#0" expanded="false" />
+                <element signature="e#11037#11666#0" expanded="false" />
+                <element signature="e#11774#12097#0" expanded="false" />
+                <element signature="e#12199#12587#0" expanded="false" />
+                <element signature="e#12689#13007#0" expanded="false" />
+                <element signature="e#13109#13426#0" expanded="false" />
+                <element signature="e#13526#13906#0" expanded="false" />
+                <element signature="e#14010#14804#0" expanded="false" />
+                <element signature="e#14941#15378#0" expanded="false" />
+                <element signature="e#15486#15665#0" expanded="false" />
+                <element signature="e#15767#15998#0" expanded="false" />
+                <element signature="e#16100#16277#0" expanded="false" />
+                <element signature="e#16379#16553#0" expanded="false" />
+                <element signature="e#16653#16883#0" expanded="false" />
+                <element signature="e#16987#17615#0" expanded="false" />
+                <element signature="e#17717#17964#0" expanded="false" />
+                <element signature="e#18093#18329#0" expanded="false" />
+                <element signature="e#18381#18702#0" expanded="false" />
+                <element signature="e#18741#19036#0" expanded="false" />
+                <element signature="e#19155#19243#0" expanded="false" />
+                <element signature="e#19368#19461#0" expanded="false" />
+                <element signature="e#19578#19669#0" expanded="false" />
+                <element signature="e#19788#19880#0" expanded="false" />
+                <element signature="e#19999#20090#0" expanded="false" />
+                <element signature="e#20211#20339#0" expanded="false" />
+                <element signature="e#20460#20549#0" expanded="false" />
+                <element signature="e#20668#20878#0" expanded="false" />
+                <element signature="e#21019#21629#0" expanded="false" />
+                <element signature="e#21748#22442#0" expanded="false" />
+                <element signature="e#22559#23240#0" expanded="false" />
+                <element signature="e#23359#23954#0" expanded="false" />
+                <element signature="e#24073#24664#0" expanded="false" />
+                <element signature="e#24785#26017#0" expanded="false" />
+                <element signature="e#26138#27389#0" expanded="false" />
+                <element signature="e#27420#27536#0" expanded="false" />
+                <marker date="1525292237094" expanded="true" signature="1558:1841" ph="SELECT h.nam... oferty" />
+                <marker date="1525292237094" expanded="true" signature="2051:2363" ph="SELECT h.nam... oferty" />
+                <marker date="1525292237094" expanded="true" signature="2051:2385" ph="SELECT DISTI... oferty" />
+                <marker date="1525292237094" expanded="true" signature="3508:3552" ph="SELECT ah.id... atrakcje_hotele" />
+                <marker date="1525292237094" expanded="true" signature="3508:3567" ph="SELECT ah.id... atrakcje_hotele" />
+                <marker date="1525292237094" expanded="true" signature="3508:3629" ph="SELECT ah.id... atrakcje_hotele" />
+                <marker date="1525292237094" expanded="true" signature="5336:5372" ph="SELECT * FRO... users" />
+                <marker date="1525292237094" expanded="true" signature="6825:6832" ph="SELECT * FRO... oferty" />
+                <marker date="1525292237094" expanded="true" signature="6825:7304" ph="SELECT h.nam... oferty" />
+                <marker date="1525292237094" expanded="true" signature="9661:9690" ph="SELECT * FRO... users" />
+                <marker date="1525292237094" expanded="true" signature="10134:10248" ph="UPDATE proje... " />
+                <marker date="1525292237094" expanded="true" signature="10527:10676" ph="INSERT INTO projekt.dbo.users... " />
+                <marker date="1525292237094" expanded="true" signature="11241:11266" ph="INSERT INTO VALUES... " />
+                <marker date="1525292237094" expanded="true" signature="11241:11308" ph="INSERT INTO oferta... " />
+                <marker date="1525292237094" expanded="true" signature="11241:11513" ph="INSERT INTO oferta... " />
+                <marker date="1525292237094" expanded="true" signature="11883:11909" ph="INSERT INTO panstwa... " />
+                <marker date="1525292237094" expanded="true" signature="11883:11916" ph="INSERT INTO panstwa... " />
+                <marker date="1525292237094" expanded="true" signature="12345:12382" ph="INSERT INTO panstwa... " />
+                <marker date="1525292237094" expanded="true" signature="12795:12829" ph="INSERT INTO atrakcje... " />
+                <marker date="1525292237094" expanded="true" signature="13215:13246" ph="INSERT INTO wyzyw... " />
+                <marker date="1525292237094" expanded="true" signature="13665:13704" ph="INSERT INTO miasta... " />
+                <marker date="1525292237094" expanded="true" signature="14186:14223" ph="INSERT INTO hotele... " />
+                <marker date="1525292237094" expanded="true" signature="14344:14380" ph="SELECT * FRO... hotele" />
+                <marker date="1525292237094" expanded="true" signature="14561:14607" ph="INSERT INTO at_hotele... " />
+                <marker date="1525292237094" expanded="true" signature="14983:15266" ph="SELECT o.id,... oferty" />
+                <marker date="1525292237094" expanded="true" signature="15528:15549" ph="SELECT * FRO... panstwa" />
+                <marker date="1525292237094" expanded="true" signature="15809:15842" ph="SELECT * FRO... panstwa" />
+                <marker date="1525292237094" expanded="true" signature="15809:15867" ph="SELECT m.id,... " />
+                <marker date="1525292237094" expanded="true" signature="15809:15885" ph="SELECT m.id,... miasta" />
+                <marker date="1525292237094" expanded="true" signature="16142:16164" ph="SELECT * FRO... atrakcje" />
+                <marker date="1525292237094" expanded="true" signature="16421:16440" ph="SELECT * FRO... wyzyw" />
+                <marker date="1525292237094" expanded="true" signature="16695:16771" ph="SELECT m.id,... miasta" />
+                <marker date="1525292237094" expanded="true" signature="17029:17036" ph="SELECT h.id,... miasta" />
+                <marker date="1525292237094" expanded="true" signature="17029:17501" ph="SELECT h.id,... miasta" />
+                <marker date="1525292237094" expanded="true" signature="17759:17766" ph="SELECT DISTI... hotele" />
+                <marker date="1525292237094" expanded="true" signature="17759:17817" ph="SELECT * FRO... users" />
+                <marker date="1525292237094" expanded="true" signature="17759:17846" ph="SELECT * FRO... users" />
+                <marker date="1525292237094" expanded="true" signature="17759:17851" ph="SELECT * FRO... users" />
+                <marker date="1525292237094" expanded="true" signature="18135:18188" ph="SELECT u.id,... users" />
+                <marker date="1525292237094" expanded="true" signature="18135:18198" ph="SELECT u.id,... users" />
+                <marker date="1525292237094" expanded="true" signature="18135:18200" ph="SELECT u.id,... users" />
+                <marker date="1525292237094" expanded="true" signature="18424:18448" ph="DELETE FROM " />
+                <marker date="1525292237094" expanded="true" signature="18784:18815" ph="DELETE FROM " />
+                <marker date="1525292237094" expanded="true" signature="21062:21093" ph="SELECT * FRO... panstwa" />
+                <marker date="1525292237094" expanded="true" signature="21394:21418" ph="UPDATE panst... " />
+                <marker date="1525292237094" expanded="true" signature="21394:21432" ph="UPDATE panst... " />
+                <marker date="1525292237094" expanded="true" signature="21394:21434" ph="UPDATE panst... " />
+                <marker date="1525292237094" expanded="true" signature="21791:21821" ph="SELECT * FRO... city" />
+                <marker date="1525292237094" expanded="true" signature="22180:22231" ph="UPDATE miast... " />
+                <marker date="1525292237094" expanded="true" signature="22602:22634" ph="SELECT * FRO... lotniska" />
+                <marker date="1525292237094" expanded="true" signature="22983:23035" ph="UPDATE miast... " />
+                <marker date="1525292237094" expanded="true" signature="23402:23434" ph="SELECT * FRO... lotniska" />
+                <marker date="1525292237094" expanded="true" signature="23727:23766" ph="UPDATE lotni... " />
+                <marker date="1525292237094" expanded="true" signature="24116:24145" ph="SELECT * FRO... wyzyw" />
+                <marker date="1525292237094" expanded="true" signature="24440:24476" ph="UPDATE atrak... " />
+                <marker date="1525292237094" expanded="true" signature="24828:24860" ph="SELECT * FRO... hotele" />
+                <marker date="1525292237094" expanded="true" signature="24828:24862" ph="SELECT * FRO... hotele" />
+                <marker date="1525292237094" expanded="true" signature="24941:24990" ph="SELECT * FRO... hotele" />
+                <marker date="1525292237094" expanded="true" signature="25445:25496" ph="UPDATE wyzyw... " />
+                <marker date="1525292237094" expanded="true" signature="25616:25660" ph="DELETE FROM " />
+                <marker date="1525292237094" expanded="true" signature="25627:25660" ph="UPDATE hotel... " />
+                <marker date="1525292237094" expanded="true" signature="25789:25825" ph="INSERT INTO hotele_atrakcje... " />
+                <marker date="1525292237094" expanded="true" signature="25789:25827" ph="INSERT INTO hotele_atrakcje... " />
+                <marker date="1525292237094" expanded="true" signature="25789:25828" ph="INSERT INTO hotele_atrakcje... " />
+                <marker date="1525292237094" expanded="true" signature="25789:25831" ph="INSERT INTO hotele_atrakcje... " />
+                <marker date="1525292237094" expanded="true" signature="25789:25850" ph="INSERT INTO hotele_atrakcje... " />
+                <marker date="1525292237094" expanded="true" signature="25800:25825" ph="DELETE FROM " />
+                <marker date="1525292237094" expanded="true" signature="26181:26211" ph="SELECT * FRO... oferty" />
+                <marker date="1525292237094" expanded="true" signature="26906:27044" ph="UPDATE panst... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>szuka</find>
+      <find>Forma</find>
+      <find>current</find>
+      <find>current_user</find>
+      <find>No data</find>
+      <find>name</find>
+      <find>.email</find>
+      <find>.street</find>
+      <find>.city</find>
+      <find>.postcode</find>
+      <find>cities</find>
+      <find>countries</find>
+      <find>print</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Brak danych</replace>
+      <replace>[0]</replace>
+      <replace>[2]</replace>
+      <replace>[3]</replace>
+      <replace>[7]</replace>
+      <replace>[9]</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gui.py" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/templates/rezerwacja.html" />
+        <option value="$PROJECT_DIR$/templates/kontakt.html" />
+        <option value="$PROJECT_DIR$/static/szukanie.html" />
+        <option value="$PROJECT_DIR$/trial.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/rejestracja.html" />
+        <option value="$PROJECT_DIR$/templates/edition.html" />
+        <option value="$PROJECT_DIR$/templates/oferta.html" />
+        <option value="$PROJECT_DIR$/templates/szukanie.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/add/oferta.html" />
+        <option value="$PROJECT_DIR$/templates/add/country.html" />
+        <option value="$PROJECT_DIR$/templates/add/city.html" />
+        <option value="$PROJECT_DIR$/templates/add/food.html" />
+        <option value="$PROJECT_DIR$/templates/add/attr.html" />
+        <option value="$PROJECT_DIR$/templates/add/air.html" />
+        <option value="$PROJECT_DIR$/templates/add/hotel.html" />
+        <option value="$PROJECT_DIR$/templates/country.html" />
+        <option value="$PROJECT_DIR$/templates/see/country.html" />
+        <option value="$PROJECT_DIR$/templates/update/country.html" />
+        <option value="$PROJECT_DIR$/templates/update/city.html" />
+        <option value="$PROJECT_DIR$/templates/see/city.html" />
+        <option value="$PROJECT_DIR$/templates/update/air.html" />
+        <option value="$PROJECT_DIR$/templates/see/air.html" />
+        <option value="$PROJECT_DIR$/templates/update/attr.html" />
+        <option value="$PROJECT_DIR$/templates/see/attr.html" />
+        <option value="$PROJECT_DIR$/templates/update/food.html" />
+        <option value="$PROJECT_DIR$/templates/update/hotel.html" />
+        <option value="$PROJECT_DIR$/templates/see/hotel.html" />
+        <option value="$PROJECT_DIR$/komendy_baza" />
+        <option value="$PROJECT_DIR$/templates/see/food.html" />
+        <option value="$PROJECT_DIR$/templates/update/offer.html" />
+        <option value="$PROJECT_DIR$/templates/see/offer.html" />
+        <option value="$PROJECT_DIR$/templates/profil.html" />
+        <option value="$PROJECT_DIR$/templates/see/user.html" />
+        <option value="$PROJECT_DIR$/decorators.py" />
+        <option value="$PROJECT_DIR$/templates/discount.html" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/templates/see/user_profile.html" />
+        <option value="$PROJECT_DIR$/forms.py" />
+        <option value="$PROJECT_DIR$/choices.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/biuro.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Krypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ZAW" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="SQL Server (Microsoft)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studia\S1\Krypto\templates\see" />
+      <recent name="D:\Studia\S1\Krypto\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Studia\S1\Krypto\templates\see" />
+      <recent name="D:\Studia\S1\Krypto\templates\update" />
+      <recent name="D:\Studia\S1\Krypto\oferta" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.biuro">
+    <configuration default="false" name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Studia\S1\Krypto\biuro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="trial" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="biuro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/biuro.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Krypto" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Krypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.gui" />
+      <item index="1" class="java.lang.String" itemvalue="Python.trial" />
+      <item index="2" class="java.lang.String" itemvalue="Python.biuro" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.biuro" />
+        <item index="1" class="java.lang.String" itemvalue="Python.trial" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gui" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14044b5b-1b01-47a8-a0dc-9c33b8728756" name="Default" comment="" />
+      <created>1523131593861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523131593861</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14270833" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="16" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rezerwacja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="194" lean-forward="false" selection-start-line="6" selection-start-column="194" selection-end-line="6" selection-end-column="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rejestracja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trial.py" />
+    <entry file="file://$PROJECT_DIR$/config.py" />
+    <entry file="file://C:/Python36/Lib/site-packages/wtforms/fields/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="483" column="0" lean-forward="false" selection-start-line="483" selection-start-column="0" selection-end-line="483" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/hotel.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add/oferta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add/attr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add/air.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add/food.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/kontakt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add/city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/oferta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add/country.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="1050" column="0" lean-forward="false" selection-start-line="1050" selection-start-column="0" selection-end-line="1050" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/country.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update/country.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update/city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update/air.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update/attr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/attr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/air.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update/hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add/hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/food.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/szukanie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="68" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update/food.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="55" lean-forward="false" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/update/offer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/edition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/offer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/hotel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="115" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="115" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/profil.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="120" lean-forward="false" selection-start-line="13" selection-start-column="120" selection-end-line="13" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1cca7a02-5792-4492-9496-9a5aff929faa/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/komendy_baza">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/discount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="71" lean-forward="false" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="122" lean-forward="true" selection-start-line="23" selection-start-column="122" selection-end-line="23" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/see/user_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/choices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1525186398971" expanded="true" signature="190:216" ph="SELECT id, n... wyzyw" />
+            <marker date="1525186398971" expanded="true" signature="395:424" ph="SELECT id, n... atrakcje" />
+            <marker date="1525186398971" expanded="true" signature="590:711" ph="SELECT l.id,... lotniska" />
+            <marker date="1525186398971" expanded="true" signature="869:897" ph="SELECT id, n... panstwa" />
+            <marker date="1525186398971" expanded="true" signature="1053:1080" ph="SELECT id, n... miasta" />
+            <marker date="1525186398971" expanded="true" signature="1227:1256" ph="SELECT id, n... lotniska" />
+            <marker date="1525186398971" expanded="true" signature="1402:1429" ph="SELECT id, n... hotele" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#1517#1791#0" expanded="false" />
+            <element signature="e#1831#2513#0" expanded="false" />
+            <element signature="e#2544#2719#0" expanded="false" />
+            <element signature="e#2753#3503#0" expanded="false" />
+            <element signature="e#3529#4003#0" expanded="false" />
+            <element signature="e#4031#4061#0" expanded="false" />
+            <element signature="e#4091#4969#0" expanded="false" />
+            <element signature="e#5001#5373#0" expanded="false" />
+            <element signature="e#5617#5982#0" expanded="false" />
+            <element signature="e#6011#6375#0" expanded="false" />
+            <element signature="e#6403#6837#0" expanded="false" />
+            <element signature="e#6867#7169#0" expanded="false" />
+            <element signature="e#7202#7313#0" expanded="false" />
+            <element signature="e#7343#7529#0" expanded="false" />
+            <element signature="e#7558#7738#0" expanded="false" />
+            <element signature="e#7768#7877#0" expanded="false" />
+            <element signature="e#7907#8018#0" expanded="false" />
+            <element signature="e#8049#8322#0" expanded="false" />
+            <marker date="1525186372481" expanded="true" signature="518:544" ph="SELECT id, n... wyzyw" />
+            <marker date="1525186372481" expanded="true" signature="646:675" ph="SELECT id, n... atrakcje" />
+            <marker date="1525186372481" expanded="true" signature="772:893" ph="SELECT l.id,... lotniska" />
+            <marker date="1525186372481" expanded="true" signature="1002:1030" ph="SELECT id, n... panstwa" />
+            <marker date="1525186372481" expanded="true" signature="1156:1183" ph="SELECT id, n... miasta" />
+            <marker date="1525186372481" expanded="true" signature="1287:1316" ph="SELECT id, n... lotniska" />
+            <marker date="1525186372481" expanded="true" signature="1402:1423" ph="SELECT id, n... lotniska" />
+            <marker date="1525186372481" expanded="true" signature="1402:1429" ph="SELECT id, n... hotele" />
+            <marker date="1525186372481" expanded="true" signature="2838:2874" ph="SELECT * FRO... users" />
+            <marker date="1525186372481" expanded="true" signature="5052:5089" ph="SELECT * FRO... panstwa" />
+            <marker date="1525186372481" expanded="true" signature="5665:5700" ph="SELECT * FRO... wyzyw" />
+            <marker date="1525186372481" expanded="true" signature="6059:6097" ph="SELECT * FRO... atrakcje" />
+            <marker date="1525186372481" expanded="true" signature="6450:6488" ph="SELECT * FRO... atrakcje" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biuro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+            <element signature="e#1052#1282#0" expanded="false" />
+            <element signature="e#1478#5151#0" expanded="false" />
+            <element signature="e#5230#6166#0" expanded="false" />
+            <element signature="e#6265#6565#0" expanded="false" />
+            <element signature="e#6660#6675#0" expanded="false" />
+            <element signature="e#6776#7664#0" expanded="false" />
+            <element signature="e#7784#7957#0" expanded="false" />
+            <element signature="e#8093#9250#0" expanded="false" />
+            <element signature="e#9329#9420#0" expanded="false" />
+            <element signature="e#9503#9542#0" expanded="false" />
+            <element signature="e#9618#10014#0" expanded="false" />
+            <element signature="e#10091#10428#0" expanded="false" />
+            <element signature="e#10484#10897#0" expanded="false" />
+            <element signature="e#11037#11666#0" expanded="false" />
+            <element signature="e#11774#12097#0" expanded="false" />
+            <element signature="e#12199#12587#0" expanded="false" />
+            <element signature="e#12689#13007#0" expanded="false" />
+            <element signature="e#13109#13426#0" expanded="false" />
+            <element signature="e#13526#13906#0" expanded="false" />
+            <element signature="e#14010#14804#0" expanded="false" />
+            <element signature="e#14941#15378#0" expanded="false" />
+            <element signature="e#15486#15665#0" expanded="false" />
+            <element signature="e#15767#15998#0" expanded="false" />
+            <element signature="e#16100#16277#0" expanded="false" />
+            <element signature="e#16379#16553#0" expanded="false" />
+            <element signature="e#16653#16883#0" expanded="false" />
+            <element signature="e#16987#17615#0" expanded="false" />
+            <element signature="e#17717#17964#0" expanded="false" />
+            <element signature="e#18093#18329#0" expanded="false" />
+            <element signature="e#18381#18702#0" expanded="false" />
+            <element signature="e#18741#19036#0" expanded="false" />
+            <element signature="e#19155#19243#0" expanded="false" />
+            <element signature="e#19368#19461#0" expanded="false" />
+            <element signature="e#19578#19669#0" expanded="false" />
+            <element signature="e#19788#19880#0" expanded="false" />
+            <element signature="e#19999#20090#0" expanded="false" />
+            <element signature="e#20211#20339#0" expanded="false" />
+            <element signature="e#20460#20549#0" expanded="false" />
+            <element signature="e#20668#20878#0" expanded="false" />
+            <element signature="e#21019#21629#0" expanded="false" />
+            <element signature="e#21748#22442#0" expanded="false" />
+            <element signature="e#22559#23240#0" expanded="false" />
+            <element signature="e#23359#23954#0" expanded="false" />
+            <element signature="e#24073#24664#0" expanded="false" />
+            <element signature="e#24785#26017#0" expanded="false" />
+            <element signature="e#26138#27389#0" expanded="false" />
+            <element signature="e#27420#27536#0" expanded="false" />
+            <marker date="1525292237094" expanded="true" signature="1558:1841" ph="SELECT h.nam... oferty" />
+            <marker date="1525292237094" expanded="true" signature="2051:2363" ph="SELECT h.nam... oferty" />
+            <marker date="1525292237094" expanded="true" signature="2051:2385" ph="SELECT DISTI... oferty" />
+            <marker date="1525292237094" expanded="true" signature="3508:3552" ph="SELECT ah.id... atrakcje_hotele" />
+            <marker date="1525292237094" expanded="true" signature="3508:3567" ph="SELECT ah.id... atrakcje_hotele" />
+            <marker date="1525292237094" expanded="true" signature="3508:3629" ph="SELECT ah.id... atrakcje_hotele" />
+            <marker date="1525292237094" expanded="true" signature="5336:5372" ph="SELECT * FRO... users" />
+            <marker date="1525292237094" expanded="true" signature="6825:6832" ph="SELECT * FRO... oferty" />
+            <marker date="1525292237094" expanded="true" signature="6825:7304" ph="SELECT h.nam... oferty" />
+            <marker date="1525292237094" expanded="true" signature="9661:9690" ph="SELECT * FRO... users" />
+            <marker date="1525292237094" expanded="true" signature="10134:10248" ph="UPDATE proje... " />
+            <marker date="1525292237094" expanded="true" signature="10527:10676" ph="INSERT INTO projekt.dbo.users... " />
+            <marker date="1525292237094" expanded="true" signature="11241:11266" ph="INSERT INTO VALUES... " />
+            <marker date="1525292237094" expanded="true" signature="11241:11308" ph="INSERT INTO oferta... " />
+            <marker date="1525292237094" expanded="true" signature="11241:11513" ph="INSERT INTO oferta... " />
+            <marker date="1525292237094" expanded="true" signature="11883:11909" ph="INSERT INTO panstwa... " />
+            <marker date="1525292237094" expanded="true" signature="11883:11916" ph="INSERT INTO panstwa... " />
+            <marker date="1525292237094" expanded="true" signature="12345:12382" ph="INSERT INTO panstwa... " />
+            <marker date="1525292237094" expanded="true" signature="12795:12829" ph="INSERT INTO atrakcje... " />
+            <marker date="1525292237094" expanded="true" signature="13215:13246" ph="INSERT INTO wyzyw... " />
+            <marker date="1525292237094" expanded="true" signature="13665:13704" ph="INSERT INTO miasta... " />
+            <marker date="1525292237094" expanded="true" signature="14186:14223" ph="INSERT INTO hotele... " />
+            <marker date="1525292237094" expanded="true" signature="14344:14380" ph="SELECT * FRO... hotele" />
+            <marker date="1525292237094" expanded="true" signature="14561:14607" ph="INSERT INTO at_hotele... " />
+            <marker date="1525292237094" expanded="true" signature="14983:15266" ph="SELECT o.id,... oferty" />
+            <marker date="1525292237094" expanded="true" signature="15528:15549" ph="SELECT * FRO... panstwa" />
+            <marker date="1525292237094" expanded="true" signature="15809:15842" ph="SELECT * FRO... panstwa" />
+            <marker date="1525292237094" expanded="true" signature="15809:15867" ph="SELECT m.id,... " />
+            <marker date="1525292237094" expanded="true" signature="15809:15885" ph="SELECT m.id,... miasta" />
+            <marker date="1525292237094" expanded="true" signature="16142:16164" ph="SELECT * FRO... atrakcje" />
+            <marker date="1525292237094" expanded="true" signature="16421:16440" ph="SELECT * FRO... wyzyw" />
+            <marker date="1525292237094" expanded="true" signature="16695:16771" ph="SELECT m.id,... miasta" />
+            <marker date="1525292237094" expanded="true" signature="17029:17036" ph="SELECT h.id,... miasta" />
+            <marker date="1525292237094" expanded="true" signature="17029:17501" ph="SELECT h.id,... miasta" />
+            <marker date="1525292237094" expanded="true" signature="17759:17766" ph="SELECT DISTI... hotele" />
+            <marker date="1525292237094" expanded="true" signature="17759:17817" ph="SELECT * FRO... users" />
+            <marker date="1525292237094" expanded="true" signature="17759:17846" ph="SELECT * FRO... users" />
+            <marker date="1525292237094" expanded="true" signature="17759:17851" ph="SELECT * FRO... users" />
+            <marker date="1525292237094" expanded="true" signature="18135:18188" ph="SELECT u.id,... users" />
+            <marker date="1525292237094" expanded="true" signature="18135:18198" ph="SELECT u.id,... users" />
+            <marker date="1525292237094" expanded="true" signature="18135:18200" ph="SELECT u.id,... users" />
+            <marker date="1525292237094" expanded="true" signature="18424:18448" ph="DELETE FROM " />
+            <marker date="1525292237094" expanded="true" signature="18784:18815" ph="DELETE FROM " />
+            <marker date="1525292237094" expanded="true" signature="21062:21093" ph="SELECT * FRO... panstwa" />
+            <marker date="1525292237094" expanded="true" signature="21394:21418" ph="UPDATE panst... " />
+            <marker date="1525292237094" expanded="true" signature="21394:21432" ph="UPDATE panst... " />
+            <marker date="1525292237094" expanded="true" signature="21394:21434" ph="UPDATE panst... " />
+            <marker date="1525292237094" expanded="true" signature="21791:21821" ph="SELECT * FRO... city" />
+            <marker date="1525292237094" expanded="true" signature="22180:22231" ph="UPDATE miast... " />
+            <marker date="1525292237094" expanded="true" signature="22602:22634" ph="SELECT * FRO... lotniska" />
+            <marker date="1525292237094" expanded="true" signature="22983:23035" ph="UPDATE miast... " />
+            <marker date="1525292237094" expanded="true" signature="23402:23434" ph="SELECT * FRO... lotniska" />
+            <marker date="1525292237094" expanded="true" signature="23727:23766" ph="UPDATE lotni... " />
+            <marker date="1525292237094" expanded="true" signature="24116:24145" ph="SELECT * FRO... wyzyw" />
+            <marker date="1525292237094" expanded="true" signature="24440:24476" ph="UPDATE atrak... " />
+            <marker date="1525292237094" expanded="true" signature="24828:24860" ph="SELECT * FRO... hotele" />
+            <marker date="1525292237094" expanded="true" signature="24828:24862" ph="SELECT * FRO... hotele" />
+            <marker date="1525292237094" expanded="true" signature="24941:24990" ph="SELECT * FRO... hotele" />
+            <marker date="1525292237094" expanded="true" signature="25445:25496" ph="UPDATE wyzyw... " />
+            <marker date="1525292237094" expanded="true" signature="25616:25660" ph="DELETE FROM " />
+            <marker date="1525292237094" expanded="true" signature="25627:25660" ph="UPDATE hotel... " />
+            <marker date="1525292237094" expanded="true" signature="25789:25825" ph="INSERT INTO hotele_atrakcje... " />
+            <marker date="1525292237094" expanded="true" signature="25789:25827" ph="INSERT INTO hotele_atrakcje... " />
+            <marker date="1525292237094" expanded="true" signature="25789:25828" ph="INSERT INTO hotele_atrakcje... " />
+            <marker date="1525292237094" expanded="true" signature="25789:25831" ph="INSERT INTO hotele_atrakcje... " />
+            <marker date="1525292237094" expanded="true" signature="25789:25850" ph="INSERT INTO hotele_atrakcje... " />
+            <marker date="1525292237094" expanded="true" signature="25800:25825" ph="DELETE FROM " />
+            <marker date="1525292237094" expanded="true" signature="26181:26211" ph="SELECT * FRO... oferty" />
+            <marker date="1525292237094" expanded="true" signature="26906:27044" ph="UPDATE panst... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

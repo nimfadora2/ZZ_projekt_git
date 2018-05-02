@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+<div class="page-header"> <h2> <b>Kontakt</b> </h2> </div>
+<p><h4> W razie jakichkolwiek pytań zapraszamy do kontaktu mailowego: <a href="#">rajskiptak@rajski.com</a>,
+    <br> <br>
+    telefonicznego: <a href="#">+49 (0)176 - 402 063 87</a> <br> <br>
+     lub osobistego w siedzibie naszego biura: <br><address>Aleja Grzybowa 10, 32-300 Kraków</address></h4></p>
+<br>
+
+<br>
+<p><h4> Zachęcamy także do kontaktu poprzez poniższy formularz kontaktowy:</h4></p>
+<p>{{ wtf.quick_form(form) }}</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+{% endblock %}

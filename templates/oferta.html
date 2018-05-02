@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+
+{% block head %}
+{{ super() }}
+<link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+{% endblock %}
+
+{% block page_content %}
+
+<div class="page-header"> <h3> <b>Oferta</b></h3></div>
+<div>
+    <div style="text-align: center">
+            <img src="/static/hotel.jpeg">
+    </div>
+
+    <h3>
+    <b> Nazwa hotelu: </b> {{ dane[0]}}
+    <br>
+        <br>
+    <b> Miasto: </b> {{ dane[1]}}
+    <br><br>
+    <b> Państwo: </b> {{ dane[2]}}
+    <br><br>
+    <b> Atrakcje: </b> {% for atrakcja in dane[3] %} {{ atrakcja }} {% endfor %}
+
+    <br><br>
+    <br>
+    <b> Wyżywienie: </b> {{ dane[4]}}
+    <br><br>
+        <b> Pobyt od: </b> {{ dane[5]}}
+    <br><br>
+        <b> Pobyt do: </b> {{ dane[6]}}
+    <br><br>
+        <b> Wylot z: </b> {{ dane[7]}}
+    <br><br>
+        <b> Przylot do: </b> {{ dane[8]}}
+    <br><br>
+        <b> Cena za osobę: </b> {{ dane[9]}}
+    <br><br>
+        <b> Ilość osób w pokoju: </b> {{ dane[10]}}
+    <br>
+    </h3>
+</div>
+{% endblock %}

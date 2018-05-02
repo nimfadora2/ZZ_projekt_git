@@ -1,0 +1,122 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %} Rajski ptak {% endblock %}
+
+{% block styles %}
+{{ super() }}
+
+<style>
+.navbar-default {
+    background-color: #8cdaff;
+    border-color: #E7E7E7;
+    color: black !important;
+} </style>
+<style>
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000099 !important;
+    background-color: #00a9fb;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #000099;
+}
+
+    .navbar-default .navbar-brand {
+    color: #000099;
+}
+.navbar-nav > li > .dropdown-toggle >.active {
+    background-color: yellow;
+}
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a,
+    .navbar-default .navbar-nav .open .dropdown-menu {
+    color: #3344ff;
+  }
+</style>
+
+{% endblock %}
+
+
+{% block head %}
+{{ super() }}
+<link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+{% endblock %}
+
+{% block navbar %}
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="{{ url_for('index') }}"><b>Rajski ptak</b></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{{ url_for('index') }}">Strona główna</a></li>
+      <li><a href="{{ url_for('szukaj') }}">Wyszukiwarka</a></li>
+      <li><a href="{{ url_for('rezerwacja') }}">Zasady rezerwacji</a></li>
+      <li><a href="{{ url_for('kontakt') }}">Kontakt</a></li>
+        {% if current_user.is_authenticated %}
+        <li><a href="{{ url_for('discount') }}">STREFA ZNIŻEK</a></li>
+        {% endif %}
+        {% if current_user.is_administrator() %}
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dodaj
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{url_for('add_country') }}">Kraj</a></li>
+          <li><a href="{{url_for('add_city') }}">Miasto</a></li>
+          <li><a href="{{url_for('add_air') }}">Lotnisko</a></li>
+            <li><a href="{{url_for('add_attr') }}">Atrakcje</a></li>
+            <li><a href="{{url_for('add_hotel') }}">Hotel</a></li>
+            <li><a href="{{url_for('add_offer') }}">Ofertę</a></li>
+            <li><a href="{{url_for('add_food') }}">Typ wyżywienia</a></li>
+        </ul>
+      </li>
+                <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Usuń/edytuj
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{url_for('see_country') }}">Kraj</a></li>
+          <li><a href="{{url_for('see_city') }}">Miasto</a></li>
+          <li><a href="{{url_for('see_air') }}">Lotnisko</a></li>
+            <li><a href="{{url_for('see_attr') }}">Atrakcje</a></li>
+            <li><a href="{{url_for('see_hotel') }}">Hotel</a></li>
+            <li><a href="{{url_for('see_offer') }}">Ofertę</a></li>
+            <li><a href="{{url_for('see_food') }}">Typ wyżywienia</a></li>
+            <li><hr></li>
+            <li><a href="{{url_for('see_user') }}">Użytkownika</a></li>
+        </ul>
+      </li>
+        {% endif %}
+    </ul>
+      <ul class="nav navbar-nav navbar-right">
+          {% if current_user.is_authenticated %}
+      <li><a href="{{ url_for('profile') }}"><span class="glyphicon glyphicon-user"></span> Konto </a></li>
+            <li><a href="{{ url_for('logout') }}"><span class="glyphicon glyphicon-log-out"></span> Wyloguj się </a></li>
+          {% else %}
+                      <li><a href="{{ url_for('login') }}"><span class="glyphicon glyphicon-log-in"></span> Logowanie/Rejestracja </a></li>
+          {% endif %}
+      </ul>
+  </div>
+</nav>
+{% endblock %}
+
+{% block content %}
+
+    <div class="container">
+    {% for message in get_flashed_messages() %}
+    <div class="alert alert-warning">
+        <button type="button" class="close" data-dismiss="alert">x</button>
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% block page_content %} {% endblock %}
+
+        <footer class="container muted credit">
+            <div class="page-header" ><h4>Kontakt</h4></div>
+    <p> Adres e-mail: <a href="#">rajskiptak@rajski.com</a></p>
+    <p>Adres korespondencyjny: Aleja Grzybowa 10, 32-300 Kraków</p>
+    </footer>
+
+    </div>
+{% endblock %}
+

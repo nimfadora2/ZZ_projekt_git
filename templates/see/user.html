@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+
+<div class="page-header"> <h3> <b>Przeglądaj/usuń użytkowników</b></h3></div>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th> ID </th>
+            <th> Imię </th>
+            <th> Nazwisko </th>
+            <th> E-mail </th>
+            <th> Rola </th>
+        </tr>
+        </thead>
+        {% for row in data %}
+        <tr>
+            {% for elem in row %}
+            <td> {{elem}} </td>
+            {% endfor %}
+            <td> <a href="{{url_for('delete_user', id=row[0])}}" class="btn btn-danger" onclick="">Usuń</a> </td>
+          <td> <a href="{{url_for('see_user_profile', id=row[0])}}" class="btn btn-primary" onclick="">Szczegóły</a> </td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+{% endblock %}
